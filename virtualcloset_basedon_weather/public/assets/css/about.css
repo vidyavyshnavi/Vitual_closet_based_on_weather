@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.brand {
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 400;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+
+.what-we-do {
+    padding: 50px 0;
+}
+
+.what-we-do .row {
+    display: flex;
+    align-items: center;
+}
+
+.what-we-do .column {
+    flex: 1;
+    padding: 20px;
+}
+
+.what-we-do h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    font-size: 18px;
+    color: #555;
+}
+footer {
+    background-color:rgb(151,143,205);/* Black background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap; /* Allow wrapping of columns on smaller screens */
+}
+
+.footer-column {
+    flex: 1;
+    margin: 20px;
+    text-align: center; /* Center the content */
+}
+
+.footer-column h3 {
+    margin: 0 0 15px; /* Space below heading */
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.footer-column ul li a:hover {
+    color: #007bff; /* Change text color on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 30px; /* Increased icon size */
+    transition: transform 0.3s; /* Smooth transition for social icons */
+}
+
+.social-icons a:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.social-icons .fa-facebook:hover {
+    color: #3b5998; /* Facebook blue */
+}
+
+.social-icons .fa-twitter:hover {
+    color: #1da1f2; /* Twitter blue */
+}
+
+.social-icons .fa-instagram:hover {
+    color: #c32aa3; /* Instagram pink */
+}
+
+.social-icons .fa-youtube:hover {
+    color: #ff0000; /* YouTube red */
+}
+
+.newsletter {
+    margin-top: 20px; /* Space above newsletter section */
+}
+
+.newsletter input[type="email"] {
+    padding: 10px; /* Padding for input */
+    margin-bottom: 20px; /* Increased space between input and button */
+    width: 100%; /* Make email input responsive */
+    max-width: 300px; /* Limit maximum width */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px;
+}
+
+.newsletter button {
+    padding: 12px 0px; /* Button padding */
+    background-color: white; /* Button color */
+    color: black; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.newsletter button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
